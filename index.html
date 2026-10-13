@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+<div class="formwrapper">
+  <h2>Inbox your queries
+</h2>
+<form>
+    <div class="mb-3">
+    <label for="nameInput" class="form-label">Full Name</label>
+    <input type="text" class="form-control" id="nameInput" aria-describedby="emailHelp">
+    
+  </div>
+  <p class="alertboxname"></p>
+  <div class="mb-3">
+    <label for="emailInput" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
+    
+  </div>
+  <p class="alertboxemail"></p>
+  <div class="mb-3">
+    <label for="mobileinput" class="form-label">Mobile no</label>
+    <input type="number" class="form-control" id="mobileinput">
+  </div>
+  <p class="alertboxmobile"></p>
+  <div class="mb-3">
+    <label for="passwordInput" class="form-label">Password</label>
+    <input type="password" class="form-control" id="passwordInput">
+  </div>
+   <p class="alertboxpass"></p>
+
+    <label for="">Course Name :</label>
+     <br>
+      <input type="checkbox" class="inputcheck"class="inputcheck"  name="Course Name" value=" Web & software">
+        Web & software <br>
+
+        <input type="checkbox"class="inputcheck" name="Course Name" value="        Graphic design">
+        Graphic design <br>
+
+        <input type="checkbox" class="inputcheck" name="Course Name" value="UI & UX design">
+        UI & UX design <br>
+        <input type="checkbox"class="inputcheck"  name="Course Name" value="Professional 3D Animation">
+        Professional 3D Animation <br>
+
+        <input type="checkbox"class="inputcheck"  name="Course Name" value="Motion Graphic & VFX">
+        Motion Graphic & VFX<br><br>
+        <p class="alertcleckbox"></p>
+
+
+      <label for="">Preferred Course Format :</label> <br>
+      <input type="radio" class="inputradio" name="Course Format " value="Online"> Online <br>
+        <input type="radio"  name="Course Format " value="Offline"> Offline
+        
+        <br><br>
+        <p class="alertradio"></p>
+
+ 
+  
+  <div class="mb-3">
+    <label for="textareainput" class="form-label d-block">Message</label>
+    <textarea id="textareainput" rows="5" cols="60"></textarea>
+  </div>
+   <p class="alertboxtext"></p>
+
+   
+  
+  <button type="submit" class="btn">Submit</button>
+</form>
+</div>
+
+ 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

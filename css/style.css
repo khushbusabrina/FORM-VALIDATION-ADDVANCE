@@ -1,0 +1,38 @@
+#passwordInput{
+    width: 460px !important;
+}
+#mobileinput{
+    width: 460px !important;
+}
+#emailInput{
+    width: 460px !important;
+}
+#nameInput{
+    width: 460px !important;
+}
+
+form{
+    padding-top: 50px !important;
+    padding-left: 150px;
+  
+  
+}
+.formwrapper{
+   margin-left: 200px;
+   background-color: beige;
+   width: 760px;
+}
+h2{
+    text-align: center;
+   padding-top: 25px;
+    color: cadetblue !important;
+
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+    color: cadetblue;
+}
+.btn{
+    background-color:cadetblue !important ;
+}
